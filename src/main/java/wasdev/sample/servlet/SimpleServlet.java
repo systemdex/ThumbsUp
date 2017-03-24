@@ -22,7 +22,9 @@ public class SimpleServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         response.getWriter().print("Systemdex First Bluemix App!")
-         <a href="https://www.softlayer.com/IBMGEP-application/?cm_mmc=EcoDWW-_-GEPCloud-_-apply-_-hometopbutton&cm_mc_uid=04459892205714733199851&cm_mc_sid_50200000=1475224344">Dash</a>
+        <b>
+            <a href="https://www.softlayer.com/IBMGEP-application/?cm_mmc=EcoDWW-_-GEPCloud-_-apply-_-hometopbutton&cm_mc_uid=04459892205714733199851&cm_mc_sid_50200000=1475224344">Dash</a>
+        </b>    
     }
 
 }
